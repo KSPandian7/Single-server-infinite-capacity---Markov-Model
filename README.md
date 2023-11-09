@@ -14,21 +14,14 @@ This is a queuing model in which the arrival is Marcovian and departure distribu
 
 ## Procedure :
 
-![image2](/2.png)
-
-
+![image](2.png)
 
 ## Experiment:
-![EXP1](240579349-2960ee3e-7325-4e09-85e1-ae816ceaaab3.png)
+![Exp 4 1](https://github.com/21003698/Single-server-infinite-capacity---Markov-Model/assets/93427522/2960ee3e-7325-4e09-85e1-ae816ceaaab3)
 
-![EXP2](240579443-f5b111fa-a1b3-47ce-b862-a071560beec0.png)
+![Exp 4 2](https://github.com/21003698/Single-server-infinite-capacity---Markov-Model/assets/93427522/f5b111fa-a1b3-47ce-b862-a071560beec0)
 
- 
 ## Program
-```python
-DEVELOPED BY : KULASEKARAPANDIAN K
-REGISTER NO : 212222240052
-```
 ```python
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
@@ -57,6 +50,8 @@ print("---------------------------------------------------------------")
 ```
 
 ## Output :
-![OUTPUT](/op4.png)
-## Result :
+![out](https://github.com/21003698/Single-server-infinite-capacity---Markov-Model/assets/93427522/56a83ac2-cbd6-41e5-a0ab-788d37c1160d)
 
+
+## Result :
+The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
