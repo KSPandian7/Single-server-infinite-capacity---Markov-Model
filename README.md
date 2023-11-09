@@ -8,21 +8,26 @@ Visual components and Python
 ## Theory:
 Queuing are the most frequently encountered problems in everyday life. For example, queue at a cafeteria, library, bank, etc. Common to all of these cases are the arrivals of objects requiring service and the attendant delays when the service mechanism is busy. Waiting lines cannot be eliminated completely, but suitable techniques can be used to reduce the waiting time of an object in the system. A long waiting line may result in loss of customers to an organization. Waiting time can be reduced by providing additional service facilities, but it may result in an increase in the idle time of the service mechanism.
 
-![image](1.png)
 
 This is a queuing model in which the arrival is Marcovian and departure distribution is also Marcovian,number of server is one and size of the queue is also Marcovian,no.of server is one and size of the queue is infinite and service discipline is 1st come 1st serve(FCFS) and the calling source is also finite.
 
 ## Procedure :
 
-![image](2.png)
+
+
+![PROC](https://github.com/Aravindsamy04/Single-server-infinite-capacity---Markov-Model/assets/113497037/73dbc1cb-5fec-4e50-a178-a405fe8f057a)
 
 ## Experiment:
-![Exp 4 1](https://github.com/21003698/Single-server-infinite-capacity---Markov-Model/assets/93427522/2960ee3e-7325-4e09-85e1-ae816ceaaab3)
+![241128806-75ad439b-e6db-4c5d-be4c-917f39b1593e](https://github.com/Aravindsamy04/Single-server-infinite-capacity---Markov-Model/assets/113497037/47263cd3-111c-41d4-82a4-2d69849b30d3)
 
-![Exp 4 2](https://github.com/21003698/Single-server-infinite-capacity---Markov-Model/assets/93427522/f5b111fa-a1b3-47ce-b862-a071560beec0)
 
+ 
 ## Program
 ```python
+DEVELOPRD BY : KULASEKARAPANDIAN K
+REGISTER NO : 212222240052
+```
+```
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
@@ -47,10 +52,11 @@ if (lam <  mu):
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("---------------------------------------------------------------")
-```
 
+```
 ## Output :
-![out](https://github.com/21003698/Single-server-infinite-capacity---Markov-Model/assets/93427522/56a83ac2-cbd6-41e5-a0ab-788d37c1160d)
+
+![241128943-3bf51711-0e48-4ca0-bca4-fd2b63691406](https://github.com/Aravindsamy04/Single-server-infinite-capacity---Markov-Model/assets/113497037/7e1e4882-9b9a-485c-9c2f-9c267627b0de)
 
 
 ## Result :
